@@ -21,6 +21,10 @@ class Game
       'Paper beats rock!'
     elsif (left == :paper && right == :rock)
       'Paper beats rock!'
+    elsif (left == :scissors && right == :paper)
+      'Scissors beats paper!'
+    elsif (left == :paper && right == :scissors)
+      'Scissors beats paper!'
     else
       :UNKNOWN
     end
