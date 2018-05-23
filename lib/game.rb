@@ -25,6 +25,8 @@ class Game
       'Scissors beats paper!'
     elsif (left == :paper && right == :scissors)
       'Scissors beats paper!'
+    elsif (left == right)
+      'Tie game. Try again!'
     else
       :UNKNOWN
     end
